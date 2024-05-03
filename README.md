@@ -1,2 +1,2 @@
 # Viper_RandomColorApp
-A table with random color apps made with VIPER architecture
+A table with random colors made with VIPER architecture
