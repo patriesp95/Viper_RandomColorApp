@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D52202092BD034220084C4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202082BD034220084C4EF /* AppDelegate.swift */; };
+		D522020B2BD034220084C4EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522020A2BD034220084C4EF /* SceneDelegate.swift */; };
+		D52202122BD034230084C4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52202112BD034230084C4EF /* Assets.xcassets */; };
+		D52202152BD034230084C4EF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D52202142BD034230084C4EF /* Base */; };
+		D52202202BD034230084C4EF /* Viper_RandomColorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522021F2BD034230084C4EF /* Viper_RandomColorAppTests.swift */; };
+		D522022A2BD034230084C4EF /* Viper_RandomColorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202292BD034230084C4EF /* Viper_RandomColorAppUITests.swift */; };
+		D522022C2BD034230084C4EF /* Viper_RandomColorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522022B2BD034230084C4EF /* Viper_RandomColorAppUITestsLaunchTests.swift */; };
+		D52202402BD2C1D80084C4EF /* ColorListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522023F2BD2C1D80084C4EF /* ColorListRouter.swift */; };
+		D52202422BD2C2110084C4EF /* ColorListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202412BD2C2110084C4EF /* ColorListProtocols.swift */; };
+		D52202462BD2C36E0084C4EF /* ColorListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202452BD2C36E0084C4EF /* ColorListInteractor.swift */; };
+		D52202482BD2C3820084C4EF /* ColorListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202472BD2C3820084C4EF /* ColorListPresenter.swift */; };
+		D522024D2BD2C7F10084C4EF /* ColorListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522024C2BD2C7F10084C4EF /* ColorListLocalDataManager.swift */; };
+		D522024F2BD2C8050084C4EF /* ColorListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522024E2BD2C8050084C4EF /* ColorListRemoteDataManager.swift */; };
+		D52202512BD2D0480084C4EF /* ColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202502BD2D0480084C4EF /* ColorListView.swift */; };
+		D522025B2BD41C560084C4EF /* ColorDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522025A2BD41C560084C4EF /* ColorDetailProtocols.swift */; };
+		D522025F2BD41CA70084C4EF /* ColorDetailRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D522025E2BD41CA70084C4EF /* ColorDetailRemoteDataManager.swift */; };
+		D52202612BD41CBB0084C4EF /* ColorDetailLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202602BD41CBB0084C4EF /* ColorDetailLocalDataManager.swift */; };
+		D52202632BD41CC90084C4EF /* ColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202622BD41CC90084C4EF /* ColorDetailView.swift */; };
+		D52202652BD41CD50084C4EF /* ColorDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202642BD41CD50084C4EF /* ColorDetailInteractor.swift */; };
+		D52202672BD41CE80084C4EF /* ColorDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202662BD41CE80084C4EF /* ColorDetailPresenter.swift */; };
+		D52202692BD41CFE0084C4EF /* ColorDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52202682BD41CFE0084C4EF /* ColorDetailRouter.swift */; };
+		D5FCD5792BE524C500B83CAB /* ColorDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FCD5782BE524C500B83CAB /* ColorDetailView.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D522021C2BD034230084C4EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52201FD2BD034210084C4EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52202042BD034220084C4EF;
+			remoteInfo = Viper_RandomColorApp;
+		};
+		D52202262BD034230084C4EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52201FD2BD034210084C4EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52202042BD034220084C4EF;
+			remoteInfo = Viper_RandomColorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D52202052BD034220084C4EF /* Viper_RandomColorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viper_RandomColorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52202082BD034220084C4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D522020A2BD034220084C4EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D52202112BD034230084C4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52202142BD034230084C4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D52202162BD034230084C4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D522021B2BD034230084C4EF /* Viper_RandomColorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Viper_RandomColorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D522021F2BD034230084C4EF /* Viper_RandomColorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viper_RandomColorAppTests.swift; sourceTree = "<group>"; };
+		D52202252BD034230084C4EF /* Viper_RandomColorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Viper_RandomColorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52202292BD034230084C4EF /* Viper_RandomColorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viper_RandomColorAppUITests.swift; sourceTree = "<group>"; };
+		D522022B2BD034230084C4EF /* Viper_RandomColorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viper_RandomColorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D522023F2BD2C1D80084C4EF /* ColorListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListRouter.swift; sourceTree = "<group>"; };
+		D52202412BD2C2110084C4EF /* ColorListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListProtocols.swift; sourceTree = "<group>"; };
+		D52202452BD2C36E0084C4EF /* ColorListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListInteractor.swift; sourceTree = "<group>"; };
+		D52202472BD2C3820084C4EF /* ColorListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListPresenter.swift; sourceTree = "<group>"; };
+		D522024C2BD2C7F10084C4EF /* ColorListLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListLocalDataManager.swift; sourceTree = "<group>"; };
+		D522024E2BD2C8050084C4EF /* ColorListRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListRemoteDataManager.swift; sourceTree = "<group>"; };
+		D52202502BD2D0480084C4EF /* ColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListView.swift; sourceTree = "<group>"; };
+		D522025A2BD41C560084C4EF /* ColorDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailProtocols.swift; sourceTree = "<group>"; };
+		D522025E2BD41CA70084C4EF /* ColorDetailRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailRemoteDataManager.swift; sourceTree = "<group>"; };
+		D52202602BD41CBB0084C4EF /* ColorDetailLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailLocalDataManager.swift; sourceTree = "<group>"; };
+		D52202622BD41CC90084C4EF /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
+		D52202642BD41CD50084C4EF /* ColorDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailInteractor.swift; sourceTree = "<group>"; };
+		D52202662BD41CE80084C4EF /* ColorDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailPresenter.swift; sourceTree = "<group>"; };
+		D52202682BD41CFE0084C4EF /* ColorDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailRouter.swift; sourceTree = "<group>"; };
+		D5FCD5782BE524C500B83CAB /* ColorDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ColorDetailView.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52202022BD034220084C4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52202182BD034230084C4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52202222BD034230084C4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D52201FC2BD034210084C4EF = {
+			isa = PBXGroup;
+			children = (
+				D52202072BD034220084C4EF /* Viper_RandomColorApp */,
+				D522021E2BD034230084C4EF /* Viper_RandomColorAppTests */,
+				D52202282BD034230084C4EF /* Viper_RandomColorAppUITests */,
+				D52202062BD034220084C4EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D52202062BD034220084C4EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52202052BD034220084C4EF /* Viper_RandomColorApp.app */,
+				D522021B2BD034230084C4EF /* Viper_RandomColorAppTests.xctest */,
+				D52202252BD034230084C4EF /* Viper_RandomColorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52202072BD034220084C4EF /* Viper_RandomColorApp */ = {
+			isa = PBXGroup;
+			children = (
+				D52202392BD2A51E0084C4EF /* ColorDetail */,
+				D52202382BD2A50E0084C4EF /* ColorList */,
+				D52202082BD034220084C4EF /* AppDelegate.swift */,
+				D522020A2BD034220084C4EF /* SceneDelegate.swift */,
+				D52202112BD034230084C4EF /* Assets.xcassets */,
+				D52202132BD034230084C4EF /* LaunchScreen.storyboard */,
+				D52202162BD034230084C4EF /* Info.plist */,
+			);
+			path = Viper_RandomColorApp;
+			sourceTree = "<group>";
+		};
+		D522021E2BD034230084C4EF /* Viper_RandomColorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D522021F2BD034230084C4EF /* Viper_RandomColorAppTests.swift */,
+			);
+			path = Viper_RandomColorAppTests;
+			sourceTree = "<group>";
+		};
+		D52202282BD034230084C4EF /* Viper_RandomColorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D52202292BD034230084C4EF /* Viper_RandomColorAppUITests.swift */,
+				D522022B2BD034230084C4EF /* Viper_RandomColorAppUITestsLaunchTests.swift */,
+			);
+			path = Viper_RandomColorAppUITests;
+			sourceTree = "<group>";
+		};
+		D52202382BD2A50E0084C4EF /* ColorList */ = {
+			isa = PBXGroup;
+			children = (
+				D52202412BD2C2110084C4EF /* ColorListProtocols.swift */,
+				D52202492BD2C7C30084C4EF /* Managers */,
+				D522023A2BD2A53F0084C4EF /* View */,
+				D522023B2BD2A5480084C4EF /* Interactor */,
+				D522023E2BD2A5660084C4EF /* Presenter */,
+				D522023D2BD2A55E0084C4EF /* Entity */,
+				D522023C2BD2A5500084C4EF /* Router */,
+			);
+			path = ColorList;
+			sourceTree = "<group>";
+		};
+		D52202392BD2A51E0084C4EF /* ColorDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D522025A2BD41C560084C4EF /* ColorDetailProtocols.swift */,
+				D52202592BD41C470084C4EF /* Managers */,
+				D52202542BD41C1B0084C4EF /* View */,
+				D52202552BD41C220084C4EF /* Interactor */,
+				D52202562BD41C280084C4EF /* Presenter */,
+				D52202572BD41C340084C4EF /* Entity */,
+				D52202582BD41C390084C4EF /* Router */,
+			);
+			path = ColorDetail;
+			sourceTree = "<group>";
+		};
+		D522023A2BD2A53F0084C4EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D52202502BD2D0480084C4EF /* ColorListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D522023B2BD2A5480084C4EF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D52202452BD2C36E0084C4EF /* ColorListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D522023C2BD2A5500084C4EF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D522023F2BD2C1D80084C4EF /* ColorListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D522023D2BD2A55E0084C4EF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D522023E2BD2A5660084C4EF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D52202472BD2C3820084C4EF /* ColorListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D52202492BD2C7C30084C4EF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D522024B2BD2C7D30084C4EF /* Remote */,
+				D522024A2BD2C7CE0084C4EF /* Local */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D522024A2BD2C7CE0084C4EF /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D522024C2BD2C7F10084C4EF /* ColorListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		D522024B2BD2C7D30084C4EF /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				D522024E2BD2C8050084C4EF /* ColorListRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		D52202542BD41C1B0084C4EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D52202622BD41CC90084C4EF /* ColorDetailView.swift */,
+				D5FCD5782BE524C500B83CAB /* ColorDetailView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D52202552BD41C220084C4EF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D52202642BD41CD50084C4EF /* ColorDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D52202562BD41C280084C4EF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D52202662BD41CE80084C4EF /* ColorDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D52202572BD41C340084C4EF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D52202582BD41C390084C4EF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D52202682BD41CFE0084C4EF /* ColorDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D52202592BD41C470084C4EF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D522025C2BD41C7E0084C4EF /* Remote */,
+				D522025D2BD41C840084C4EF /* Local */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D522025C2BD41C7E0084C4EF /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				D522025E2BD41CA70084C4EF /* ColorDetailRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		D522025D2BD41C840084C4EF /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				D52202602BD41CBB0084C4EF /* ColorDetailLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52202042BD034220084C4EF /* Viper_RandomColorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D522022F2BD034230084C4EF /* Build configuration list for PBXNativeTarget "Viper_RandomColorApp" */;
+			buildPhases = (
+				D52202012BD034220084C4EF /* Sources */,
+				D52202022BD034220084C4EF /* Frameworks */,
+				D52202032BD034220084C4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viper_RandomColorApp;
+			productName = Viper_RandomColorApp;
+			productReference = D52202052BD034220084C4EF /* Viper_RandomColorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D522021A2BD034230084C4EF /* Viper_RandomColorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52202322BD034230084C4EF /* Build configuration list for PBXNativeTarget "Viper_RandomColorAppTests" */;
+			buildPhases = (
+				D52202172BD034230084C4EF /* Sources */,
+				D52202182BD034230084C4EF /* Frameworks */,
+				D52202192BD034230084C4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D522021D2BD034230084C4EF /* PBXTargetDependency */,
+			);
+			name = Viper_RandomColorAppTests;
+			productName = Viper_RandomColorAppTests;
+			productReference = D522021B2BD034230084C4EF /* Viper_RandomColorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D52202242BD034230084C4EF /* Viper_RandomColorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52202352BD034230084C4EF /* Build configuration list for PBXNativeTarget "Viper_RandomColorAppUITests" */;
+			buildPhases = (
+				D52202212BD034230084C4EF /* Sources */,
+				D52202222BD034230084C4EF /* Frameworks */,
+				D52202232BD034230084C4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52202272BD034230084C4EF /* PBXTargetDependency */,
+			);
+			name = Viper_RandomColorAppUITests;
+			productName = Viper_RandomColorAppUITests;
+			productReference = D52202252BD034230084C4EF /* Viper_RandomColorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52201FD2BD034210084C4EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D52202042BD034220084C4EF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D522021A2BD034230084C4EF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D52202042BD034220084C4EF;
+					};
+					D52202242BD034230084C4EF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D52202042BD034220084C4EF;
+					};
+				};
+			};
+			buildConfigurationList = D52202002BD034210084C4EF /* Build configuration list for PBXProject "Viper_RandomColorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52201FC2BD034210084C4EF;
+			productRefGroup = D52202062BD034220084C4EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52202042BD034220084C4EF /* Viper_RandomColorApp */,
+				D522021A2BD034230084C4EF /* Viper_RandomColorAppTests */,
+				D52202242BD034230084C4EF /* Viper_RandomColorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52202032BD034220084C4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FCD5792BE524C500B83CAB /* ColorDetailView.storyboard in Resources */,
+				D52202122BD034230084C4EF /* Assets.xcassets in Resources */,
+				D52202152BD034230084C4EF /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52202192BD034230084C4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52202232BD034230084C4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52202012BD034220084C4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52202402BD2C1D80084C4EF /* ColorListRouter.swift in Sources */,
+				D52202512BD2D0480084C4EF /* ColorListView.swift in Sources */,
+				D522025B2BD41C560084C4EF /* ColorDetailProtocols.swift in Sources */,
+				D522025F2BD41CA70084C4EF /* ColorDetailRemoteDataManager.swift in Sources */,
+				D522024D2BD2C7F10084C4EF /* ColorListLocalDataManager.swift in Sources */,
+				D52202692BD41CFE0084C4EF /* ColorDetailRouter.swift in Sources */,
+				D52202092BD034220084C4EF /* AppDelegate.swift in Sources */,
+				D522020B2BD034220084C4EF /* SceneDelegate.swift in Sources */,
+				D52202482BD2C3820084C4EF /* ColorListPresenter.swift in Sources */,
+				D52202632BD41CC90084C4EF /* ColorDetailView.swift in Sources */,
+				D52202672BD41CE80084C4EF /* ColorDetailPresenter.swift in Sources */,
+				D52202652BD41CD50084C4EF /* ColorDetailInteractor.swift in Sources */,
+				D52202422BD2C2110084C4EF /* ColorListProtocols.swift in Sources */,
+				D522024F2BD2C8050084C4EF /* ColorListRemoteDataManager.swift in Sources */,
+				D52202612BD41CBB0084C4EF /* ColorDetailLocalDataManager.swift in Sources */,
+				D52202462BD2C36E0084C4EF /* ColorListInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52202172BD034230084C4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52202202BD034230084C4EF /* Viper_RandomColorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52202212BD034230084C4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D522022C2BD034230084C4EF /* Viper_RandomColorAppUITestsLaunchTests.swift in Sources */,
+				D522022A2BD034230084C4EF /* Viper_RandomColorAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D522021D2BD034230084C4EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52202042BD034220084C4EF /* Viper_RandomColorApp */;
+			targetProxy = D522021C2BD034230084C4EF /* PBXContainerItemProxy */;
+		};
+		D52202272BD034230084C4EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52202042BD034220084C4EF /* Viper_RandomColorApp */;
+			targetProxy = D52202262BD034230084C4EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D52202132BD034230084C4EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52202142BD034230084C4EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D522022D2BD034230084C4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D522022E2BD034230084C4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D52202302BD034230084C4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M6YJP64GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Viper_RandomColorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriespert.Viper-RandomColorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D52202312BD034230084C4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M6YJP64GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Viper_RandomColorApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriespert.Viper-RandomColorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D52202332BD034230084C4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M6YJP64GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriespert.Viper-RandomColorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viper_RandomColorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Viper_RandomColorApp";
+			};
+			name = Debug;
+		};
+		D52202342BD034230084C4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M6YJP64GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriespert.Viper-RandomColorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viper_RandomColorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Viper_RandomColorApp";
+			};
+			name = Release;
+		};
+		D52202362BD034230084C4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M6YJP64GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriespert.Viper-RandomColorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Viper_RandomColorApp;
+			};
+			name = Debug;
+		};
+		D52202372BD034230084C4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M6YJP64GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriespert.Viper-RandomColorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Viper_RandomColorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52202002BD034210084C4EF /* Build configuration list for PBXProject "Viper_RandomColorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D522022D2BD034230084C4EF /* Debug */,
+				D522022E2BD034230084C4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D522022F2BD034230084C4EF /* Build configuration list for PBXNativeTarget "Viper_RandomColorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52202302BD034230084C4EF /* Debug */,
+				D52202312BD034230084C4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52202322BD034230084C4EF /* Build configuration list for PBXNativeTarget "Viper_RandomColorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52202332BD034230084C4EF /* Debug */,
+				D52202342BD034230084C4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52202352BD034230084C4EF /* Build configuration list for PBXNativeTarget "Viper_RandomColorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52202362BD034230084C4EF /* Debug */,
+				D52202372BD034230084C4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52201FD2BD034210084C4EF /* Project object */;
+}
